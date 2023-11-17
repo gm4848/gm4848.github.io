@@ -49,7 +49,7 @@ const matchMediaFallback = () => {
 
     const operand = (!limit) ? '=='
       : (limit === 'min') ? '<'
-      : '>'
+        : '>'
 
     const parseValue = (() => {
       return (~value.indexOf('em'))
